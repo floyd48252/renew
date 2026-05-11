@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Industrial & Domestic Cleaning Solutions</title>
+    <meta name="description" content="Explore our services: residential and commercial cleaning, pest control, fumigation support, and allergen control. Call 224-440-0570.">
+    <meta name="theme-color" content="#0b1220">
+    <meta name="robots" content="index,follow">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+
+    <style>
+         :root {
+            --primary: #0b1220;
+            --secondary: #059669;
+            --accent: #ffffff;
+            --bg: #ffffff;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .shadow-soft {
+            box-shadow: 0 18px 45px rgba(2, 6, 23, .12);
+        }
+        
+        .ring-soft {
+            box-shadow: 0 0 0 8px rgba(59, 130, 246, .12);
+        }
+        
+        .glass {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+        }
+        
+        img {
+            transition: transform 0.25s ease-in-out;
+            display: inline-block;
+        }
+        
+        img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-slate-950 font-sans">
+    <header class="bg-white/90 backdrop-blur border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <a class="flex items-center gap-3" href="./index.html" aria-label="Industrial & Domestic Cleaning Solutions Home">
+                    <img src="./logo.jpeg" alt="Industrial & Domestic Cleaning Solutions logo" class="w-11 h-11 rounded-xl object-cover ring-1 ring-gray-200 bg-white">
+                    <div class="leading-tight">
+                        <p class="text-[11px] tracking-wide uppercase text-slate-500">Industrial & Domestic</p>
+                        <p class="text-lg md:text-xl font-extrabold text-slate-950">Cleaning Solutions</p>
+                    </div>
+                </a>
+
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="./services.html" class="text-green-700 font-semibold">Services</a>
+                    <a href="./how-it-works.html" class="text-slate-700 hover:text-green-700 font-medium">How it works</a>
+                    <a href="./contact.html" class="text-slate-700 hover:text-green-700 font-medium">Free estimate</a>
+                    <a href="./faq.html" class="text-slate-700 hover:text-green-700 font-medium">FAQ</a>
+                    <a href="./contact.html" class="text-slate-700 hover:text-green-700 font-medium">Contact</a>
+                </nav>
+
+                <div class="flex items-center gap-3">
+                    <a href="./contact.html" class="hidden sm:inline-flex bg-white border border-slate-200 hover:border-green-300 hover:text-green-700 px-4 py-2 rounded-lg font-semibold text-sm">
+                        Free estimate
+                    </a>
+                    <a href="tel:+12244400570" class="bg-blue-950 hover:bg-slate-900 text-white px-4 py-2 rounded-lg font-semibold text-sm">
+                        <i class="fa-solid fa-phone mr-2"></i>224-440-0570
+                    </a>
+                    <button type="button" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-slate-200" aria-label="Open menu" onclick="toggleMenu()">
+                        <i class="fa-solid fa-bars text-slate-900"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="mobileMenu" class="hidden md:hidden pb-4">
+                <div class="grid gap-2 pt-2">
+                    <a href="./services.html" class="px-3 py-2 rounded-lg bg-white" onclick="toggleMenu(false)">Services</a>
+                    <a href="./how-it-works.html" class="px-3 py-2 rounded-lg hover:bg-white" onclick="toggleMenu(false)">How it works</a>
+                    <a href="./contact.html" class="px-3 py-2 rounded-lg hover:bg-white" onclick="toggleMenu(false)">Free estimate</a>
+                    <a href="./faq.html" class="px-3 py-2 rounded-lg hover:bg-white" onclick="toggleMenu(false)">FAQ</a>
+                    <a href="./contact.html" class="px-3 py-2 rounded-lg hover:bg-white" onclick="toggleMenu(false)">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative overflow-hidden text-white" style="background: radial-gradient(900px 520px at 15% 10%, rgba(5,150,105,.28), transparent 55%), linear-gradient(180deg, #059669, #0b1220);">
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20">
+            <div class="max-w-3xl">
+                <p class="text-white/70 text-sm">Services</p>
+                <h1 class="text-4xl md:text-5xl font-bold mt-2">Cleaning and facility services that fit your site</h1>
+                <p class="text-lg text-white/75 mt-4">Choose a service below, then contact us for a free estimate and scheduling.</p>
+                <div class="flex flex-col sm:flex-row gap-3 mt-8">
+                    <a href="./contact.html" class="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg font-bold text-center">Contact for free estimate</a>
+                    <a href="./contact.html" class="bg-white/10 hover:bg-white/15 border border-white/15 px-6 py-3 rounded-lg font-bold text-center">Request service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-soft border border-slate-200 hover:border-green-200 transition">
+                    <i class="fa-solid fa-broom text-4xl text-green-700 mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-3">Cleaning</h2>
+                    <p class="text-slate-700 mb-4">Recurring maintenance, deep cleaning, move-in/out, post-construction, and facility-wide programs. Our professional team ensures your space is spotless and welcoming.</p>
+                    <ul class="text-sm text-slate-700 space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Checklist-based scope</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Quality spot checks</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Flexible schedules</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Eco-friendly products</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Trained & insured staff</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-soft border border-slate-200 hover:border-blue-200 transition">
+                    <i class="fa-solid fa-user-tie text-4xl text-blue-700 mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-3">Facility Maintenance</h2>
+                    <p class="text-slate-700 mb-4">Comprehensive facility maintenance solutions for offices, retail spaces, schools, and commercial facilities. Daily, weekly, or monthly maintenance programs available.</p>
+                    <ul class="text-sm text-slate-700 space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Daily trash removal & recycling</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Restroom cleaning & restocking</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Floor care & maintenance</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Window & glass cleaning</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Break room & kitchen cleaning</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Supply restocking services</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Custom scheduling options</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-soft border border-slate-200 hover:border-emerald-200 transition">
+                    <i class="fa-solid fa-smog text-4xl text-emerald-600 mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-3">Fumigation support</h2>
+                    <p class="text-slate-700 mb-4">Inspection-first approach, treatment planning, and documentation support for regulated environments. We ensure compliance with all health and safety regulations.</p>
+                    <ul class="text-sm text-slate-700 space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Pre-treatment inspection</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Custom treatment plans</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>EPA-certified products</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Walkthrough before pricing</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Clear prep instructions</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Post-service report</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>24/7 emergency response</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-soft border border-slate-200 hover:border-rose-200 transition">
+                    <i class="fa-solid fa-bug text-4xl text-rose-600 mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-3">Pest control</h2>
+                    <p class="text-slate-700 mb-4">Targeted treatments and prevention for common household and facility pests, using an IPM-style approach. We protect your property from rodents, insects, and other pests.</p>
+                    <ul class="text-sm text-slate-700 space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Identify entry points</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Action plan + follow-up</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Maintenance options</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Safe, effective treatments</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Prevention strategies</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Emergency pest removal</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-soft border border-slate-200 hover:border-purple-200 transition">
+                    <i class="fa-solid fa-lungs text-4xl text-purple-600 mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-3">Allergen control</h2>
+                    <p class="text-slate-700 mb-4">Improve air quality and reduce irritants with specialized cleaning protocols for sensitive spaces. Perfect for allergy sufferers and asthma patients.</p>
+                    <ul class="text-sm text-slate-700 space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>HEPA-filtered equipment</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Dust & dander reduction</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Pollen & allergen removal</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Air purification systems</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Optional deodorization</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Hypoallergenic cleaning products</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-soft border border-slate-200 hover:border-purple-200 transition">
+                <i class="fa-solid fa-shield-halved text-4xl text-purple-600 mb-4"></i>
+                <h2 class="text-2xl font-bold mb-3">Forensic crime scene cleaning</h2>
+                <p class="text-slate-700 mb-4">Professional biohazard remediation and decontamination services for trauma scenes, accidents, and crime locations. Our certified technicians handle sensitive situations with discretion, compassion, and strict adherence to OSHA and EPA regulations.</p>
+                <ul class="text-sm text-slate-700 space-y-2">
+                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Bloodborne pathogen cleanup & sanitization*</li>
+                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Odor removal & air purification</li>
+                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Legal compliance documentation</li>
+                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Compassionate, discreet service</li>
+                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>24/7 emergency response</li>
+                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Insurance claim assistance</li>
+                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Property restoration services</li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-6">*Service options vary by site conditions and local availability.</p>
+        </div>
+    </main>
+
+    <!-- Customer Feedback Section -->
+    <section class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-slate-950 mb-4">Share Your Service Experience</h2>
+                    <p class="text-lg text-slate-600 mb-8">We value your feedback! Help us improve our services by sharing your experience and suggestions.</p>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg p-8">
+                    <form id="feedbackForm" onsubmit="submitFeedback(event)" class="space-y-6">
+                        <!-- Customer Information -->
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold text-slate-950 mb-4">Your Information</h3>
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <label for="feedbackName" class="block text-sm font-medium text-slate-700 mb-2">Full Name *</label>
+                                    <input type="text" id="feedbackName" required 
+                                           class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                                           placeholder="Enter your full name">
+                                </div>
+                                <div>
+                                    <label for="feedbackEmail" class="block text-sm font-medium text-slate-700 mb-2">Email Address *</label>
+                                    <input type="email" id="feedbackEmail" required 
+                                           class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                                           placeholder="your.email@example.com">
+                                </div>
+                                <div>
+                                    <label for="feedbackPhone" class="block text-sm font-medium text-slate-700 mb-2">Phone Number</label>
+                                    <input type="tel" id="feedbackPhone" 
+                                           class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                                           placeholder="(555) 123-4567">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Service Experience -->
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold text-slate-950 mb-4">Janitorial Service Experience</h3>
+                            <div class="mb-4">
+                                <label for="serviceType" class="block text-sm font-medium text-slate-700 mb-2">Service Type *</label>
+                                <select id="serviceType" required 
+                                        class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                                    <option value="">Select service type</option>
+                                    <option value="daily-cleaning">Daily Cleaning</option>
+                                    <option value="weekly-cleaning">Weekly Cleaning</option>
+                                    <option value="monthly-cleaning">Monthly Cleaning</option>
+                                    <option value="deep-cleaning">Deep Cleaning</option>
+                                    <option value="floor-care">Floor Care & Maintenance</option>
+                                    <option value="restroom-cleaning">Restroom Cleaning</option>
+                                    <option value="window-cleaning">Window & Glass Cleaning</option>
+                                    <option value="supply-restocking">Supply Restocking</option>
+                                    <option value="post-construction">Post-Construction Cleaning</option>
+                                    <option value="special-event">Special Event Cleaning</option>
+                                    <option value="other">Other Service</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="serviceRating" class="block text-sm font-medium text-slate-700 mb-2">Service Rating *</label>
+                                <div class="flex items-center space-x-4">
+                                    <div class="flex items-center">
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <input type="radio" id="rating5" name="serviceRating" value="5" class="w-4 h-4">
+                                    </div>
+                                    <div class="flex items-center">
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <input type="radio" id="rating4" name="serviceRating" value="4" class="w-4 h-4">
+                                    </div>
+                                    <div class="flex items-center">
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <input type="radio" id="rating3" name="serviceRating" value="3" class="w-4 h-4">
+                                    </div>
+                                    <div class="flex items-center">
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <span class="text-2xl mr-2">⭐</span>
+                                        <input type="radio" id="rating2" name="serviceRating" value="2" class="w-4 h-4">
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input type="radio" id="rating1" name="serviceRating" value="1" class="w-4 h-4">
+                                        <span class="text-2xl mr-2">⭐</span>
+                                    </div>
+                                </div>
+                                <p class="text-xs text-slate-500 mt-2">5 = Excellent, 1 = Poor</p>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="serviceDate" class="block text-sm font-medium text-slate-700 mb-2">Service Date</label>
+                                <input type="date" id="serviceDate" 
+                                       class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                                       placeholder="Approximate service date">
+                            </div>
+
+                            <!-- Comments Section -->
+                            <div class="mb-6">
+                                <label for="serviceComments" class="block text-sm font-medium text-slate-700 mb-2">Service Comments & Feedback</label>
+                                <textarea id="serviceComments" rows="4" 
+                                          class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                                          placeholder="Share your experience with our services... What went well? What could be improved? Any suggestions for better service?"></textarea>
+                            </div>
+
+                            <!-- Permission for Public Display -->
+                            <div class="mb-6">
+                                <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+                                    <input type="checkbox" id="publicDisplay" class="w-4 h-4 text-green-600">
+                                    <span class="text-sm text-slate-700">I agree to share my feedback publicly (anonymously) to help other customers make informed decisions</span>
+                                </label>
+                            </div>
+
+                            <!-- Submit Buttons -->
+                            <div class="flex gap-4">
+                                <button type="submit" 
+                                        class="flex-1 bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-6 rounded-lg transition">
+                                    <i class="fa-solid fa-paper-plane mr-2"></i>Submit Feedback
+                                </button>
+                                <button type="button" onclick="resetFeedbackForm()" 
+                                        class="bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-3 px-6 rounded-lg transition">
+                                    <i class="fa-solid fa-redo mr-2"></i>Reset Form
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Success/Error Messages -->
+                    <div id="feedbackSuccess" class="hidden mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-check-circle text-green-600 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-green-800">Thank You for Your Feedback!</h4>
+                                <p class="text-green-700 text-sm mt-1">We appreciate your time and value your input. Your feedback helps us improve our services for all customers.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="feedbackError" class="hidden mt-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-exclamation-circle text-red-600 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-red-800">Submission Error</h4>
+                                <p id="feedbackErrorText" class="text-red-700 text-sm mt-1">There was an error submitting your feedback. Please try again.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Feedback Display -->
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold text-slate-950 mb-4">Recent Customer Feedback</h3>
+                        <div id="recentFeedback" class="space-y-4">
+                            <div class="text-center text-slate-500 py-8">
+                                <i class="fa-solid fa-comments text-4xl text-slate-400 mb-2"></i>
+                                <p class="text-slate-600">No feedback submitted yet. Be the first to share your experience!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-950 text-slate-300 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <!-- Contact Emails -->
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-xs">
+                <div class="bg-blue-900/50 p-3 rounded-lg">
+                    <p class="font-semibold text-white mb-2">General Inquiries</p>
+                    <a href="mailto:info@industrialcommercialanddomesticcleaningsolutions.com" class="text-blue-200 hover:text-white block">
+                        <i class="fa-solid fa-envelope mr-1"></i>info@industrialcommercialanddomesticcleaningsolutions.com
+                    </a>
+                </div>
+                <div class="bg-blue-900/50 p-3 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Customer Support</p>
+                    <a href="mailto:customerservice@industrialcommercialanddomesticcleaningsolutions.com" class="text-blue-200 hover:text-white block">
+                        <i class="fa-solid fa-headset mr-1"></i>customerservice@industrialcommercialanddomesticcleaningsolutions.com
+                    </a>
+                </div>
+                <div class="bg-blue-900/50 p-3 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Sales & Quotes</p>
+                    <a href="mailto:sales@industrialcommercialanddomesticcleaningsolutions.com" class="text-blue-200 hover:text-white block">
+                        <i class="fa-solid fa-chart-line mr-1"></i>sales@industrialcommercialanddomesticcleaningsolutions.com
+                    </a>
+                </div>
+                <div class="bg-blue-900/50 p-3 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Technical Support</p>
+                    <a href="mailto:support@industrialcommercialanddomesticcleaningsolutions.com" class="text-blue-200 hover:text-white block">
+                        <i class="fa-solid fa-tools mr-1"></i>support@industrialcommercialanddomesticcleaningsolutions.com
+                    </a>
+                </div>
+                <div class="bg-blue-900/50 p-3 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Accounting & Billing</p>
+                    <a href="mailto:accounting@industrialcommercialanddomesticcleaningsolutions.com" class="text-blue-200 hover:text-white block">
+                        <i class="fa-solid fa-calculator mr-1"></i>accounting@industrialcommercialanddomesticcleaningsolutions.com
+                    </a>
+                </div>
+                <div class="bg-blue-900/50 p-3 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Administrator</p>
+                    <a href="mailto:admin@industrialcommercialanddomesticcleaningsolutions.com" class="text-blue-200 hover:text-white block">
+                        <i class="fa-solid fa-user-shield mr-1"></i>admin@industrialcommercialanddomesticcleaningsolutions.com
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Copyright & Legal -->
+            <div class="mt-8 pt-6 border-t border-slate-700">
+                <div class="text-center text-xs text-slate-400">
+                    <p>&copy; 2026 Industrial and Domestic Cleaning Solutions. All rights reserved.</p>
+                    <p class="mt-2">Estimates are informational. Final pricing depends on scope, site conditions, and local requirements.</p>
+                    <div class="mt-4 space-x-4">
+                        <a href="#" class="hover:text-white">Privacy Policy</a>
+                        <a href="#" class="hover:text-white">Terms of Service</a>
+                        <a href="./contact.html" class="hover:text-white">Request documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu(force) {
+            const el = document.getElementById('mobileMenu');
+            const shouldShow = typeof force === 'boolean' ? force : el.classList.contains('hidden');
+            if (shouldShow) el.classList.remove('hidden');
+            else el.classList.add('hidden');
+        }
+
+        // Customer Feedback Form Handler
+        function submitFeedback(event) {
+            event.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('feedbackName').value,
+                email: document.getElementById('feedbackEmail').value,
+                phone: document.getElementById('feedbackPhone').value,
+                serviceType: document.getElementById('serviceType').value,
+                serviceRating: document.querySelector('input[name="serviceRating"]:checked')?.value || '',
+                serviceDate: document.getElementById('serviceDate').value,
+                comments: document.getElementById('serviceComments').value,
+                publicDisplay: document.getElementById('publicDisplay').checked
+            };
+
+            // Validate required fields
+            if (!formData.name || !formData.email || !formData.serviceType || !formData.serviceRating) {
+                showFeedbackError('Please fill in all required fields (Name, Email, Service Type, and Rating).');
+                return;
+            }
+
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(formData.email)) {
+                showFeedbackError('Please enter a valid email address.');
+                return;
+            }
+
+            // Simulate feedback submission (in real app, this would send to backend)
+            console.log('Submitting feedback:', formData);
+            
+            // Store feedback in localStorage for demonstration
+            const feedbacks = JSON.parse(localStorage.getItem('customerFeedbacks') || '[]');
+            const newFeedback = {
+                ...formData,
+                id: Date.now(),
+                timestamp: new Date().toISOString(),
+                status: 'submitted'
+            };
+            
+            feedbacks.push(newFeedback);
+            localStorage.setItem('customerFeedbacks', JSON.stringify(feedbacks));
+            
+            // Show success message
+            showFeedbackSuccess();
+            
+            // Reset form
+            resetFeedbackForm();
+            
+            // Display recent feedbacks
+            displayRecentFeedbacks();
+        }
+
+        function showFeedbackError(message) {
+            const errorDiv = document.getElementById('feedbackError');
+            const successDiv = document.getElementById('feedbackSuccess');
+            
+            errorDiv.querySelector('#feedbackErrorText').textContent = message;
+            errorDiv.classList.remove('hidden');
+            successDiv.classList.add('hidden');
+            
+            errorDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function showFeedbackSuccess() {
+            const errorDiv = document.getElementById('feedbackError');
+            const successDiv = document.getElementById('feedbackSuccess');
+            
+            successDiv.classList.remove('hidden');
+            errorDiv.classList.add('hidden');
+            
+            successDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function resetFeedbackForm() {
+            document.getElementById('feedbackForm').reset();
+            document.getElementById('publicDisplay').checked = false;
+        }
+
+        function displayRecentFeedbacks() {
+            const feedbacks = JSON.parse(localStorage.getItem('customerFeedbacks') || '[]');
+            const recentFeedbackDiv = document.getElementById('recentFeedback');
+            
+            if (feedbacks.length === 0) {
+                recentFeedbackDiv.innerHTML = `
+                    <div class="text-center text-slate-500 py-8">
+                        <i class="fa-solid fa-comments text-4xl text-slate-400 mb-2"></i>
+                        <p class="text-slate-600">No feedback submitted yet. Be the first to share your experience!</p>
+                    </div>
+                `;
+            } else {
+                // Display last 5 feedbacks
+                const recentFeedbacks = feedbacks.slice(-5).reverse();
+                const feedbackHtml = recentFeedbacks.map(feedback => `
+                    <div class="bg-white p-4 rounded-lg border border-slate-200">
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <p class="font-semibold text-slate-900">${feedback.name}</p>
+                                <p class="text-sm text-slate-600">${feedback.serviceType} - ${new Date(feedback.timestamp).toLocaleDateString()}</p>
+                                <div class="flex items-center mt-1">
+                                    ${generateStarRating(feedback.serviceRating)}
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-xs text-slate-500">${feedback.publicDisplay ? 'Public' : 'Private'}</p>
+                            </div>
+                        </div>
+                        <div class="text-sm text-slate-700 mt-2">
+                            <p class="mb-1"><strong>Comments:</strong> ${feedback.comments}</p>
+                            ${feedback.serviceDate ? `<p class="text-xs text-slate-500">Service Date: ${feedback.serviceDate}</p>` : ''}
+                        </div>
+                        
+                        <!-- Reply Section -->
+                        <div class="mt-4 pt-4 border-t border-slate-200">
+                            <div class="mb-3">
+                                <button onclick="toggleReplyForm('${feedback.id}')" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                    <i class="fa-solid fa-reply mr-1"></i>Reply to this feedback
+                                </button>
+                            </div>
+                            
+                            <div id="replyForm-${feedback.id}" class="hidden mb-3">
+                                <div class="bg-slate-50 p-3 rounded-lg">
+                                    <div class="mb-2">
+                                        <label class="block text-sm font-medium text-slate-700 mb-1">Your Name *</label>
+                                        <input type="text" id="replyName-${feedback.id}" required 
+                                               class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm"
+                                               placeholder="Enter your name">
+                                    </div>
+                                    <div class="mb-2">
+                                        <label class="block text-sm font-medium text-slate-700 mb-1">Your Email *</label>
+                                        <input type="email" id="replyEmail-${feedback.id}" required 
+                                               class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm"
+                                               placeholder="your.email@example.com">
+                                    </div>
+                                    <div class="mb-2">
+                                        <label class="block text-sm font-medium text-slate-700 mb-1">Your Reply *</label>
+                                        <textarea id="replyText-${feedback.id}" required rows="3" 
+                                                  class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm"
+                                                  placeholder="Share your thoughts or ask a question about this feedback..."></textarea>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <button onclick="submitReply('${feedback.id}')" 
+                                                class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-lg transition">
+                                            <i class="fa-solid fa-paper-plane mr-1"></i>Post Reply
+                                        </button>
+                                        <button onclick="toggleReplyForm('${feedback.id}')" 
+                                                class="bg-gray-300 hover:bg-gray-400 text-gray-700 text-sm px-4 py-2 rounded-lg transition">
+                                            Cancel
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Display Replies -->
+                            <div id="replies-${feedback.id}" class="mt-3">
+                                ${displayReplies(feedback.id)}
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+                
+                recentFeedbackDiv.innerHTML = feedbackHtml;
+            }
+        }
+
+        function generateStarRating(rating) {
+            const stars = parseInt(rating) || 0;
+            let starHtml = '';
+            for (let i = 1; i <= 5; i++) {
+                starHtml += i <= stars ? '⭐' : '☆';
+            }
+            return starHtml;
+        }
+
+        // Reply Functions
+        function toggleReplyForm(feedbackId) {
+            const replyForm = document.getElementById(`replyForm-${feedbackId}`);
+            if (replyForm.classList.contains('hidden')) {
+                replyForm.classList.remove('hidden');
+            } else {
+                replyForm.classList.add('hidden');
+            }
+        }
+
+        function submitReply(feedbackId) {
+            const replyName = document.getElementById(`replyName-${feedbackId}`).value;
+            const replyEmail = document.getElementById(`replyEmail-${feedbackId}`).value;
+            const replyText = document.getElementById(`replyText-${feedbackId}`).value;
+
+            // Validate required fields
+            if (!replyName || !replyEmail || !replyText) {
+                alert('Please fill in all required fields (Name, Email, and Reply).');
+                return;
+            }
+
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(replyEmail)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+
+            // Get existing replies
+            const replies = JSON.parse(localStorage.getItem('feedbackReplies') || '{}');
+            if (!replies[feedbackId]) {
+                replies[feedbackId] = [];
+            }
+
+            // Add new reply
+            const newReply = {
+                name: replyName,
+                email: replyEmail,
+                text: replyText,
+                timestamp: new Date().toISOString(),
+                id: Date.now()
+            };
+
+            replies[feedbackId].push(newReply);
+            localStorage.setItem('feedbackReplies', JSON.stringify(replies));
+
+            // Clear form and hide
+            document.getElementById(`replyName-${feedbackId}`).value = '';
+            document.getElementById(`replyEmail-${feedbackId}`).value = '';
+            document.getElementById(`replyText-${feedbackId}`).value = '';
+            document.getElementById(`replyForm-${feedbackId}`).classList.add('hidden');
+
+            // Refresh replies display
+            document.getElementById(`replies-${feedbackId}`).innerHTML = displayReplies(feedbackId);
+
+            // Show success message
+            alert('Reply posted successfully!');
+        }
+
+        function displayReplies(feedbackId) {
+            const replies = JSON.parse(localStorage.getItem('feedbackReplies') || '{}');
+            const feedbackReplies = replies[feedbackId] || [];
+
+            if (feedbackReplies.length === 0) {
+                return '<p class="text-sm text-slate-500 italic">No replies yet. Be the first to respond!</p>';
+            }
+
+            return feedbackReplies.map(reply => `
+                <div class="bg-blue-50 p-3 rounded-lg mb-2 border-l-4 border-blue-400">
+                    <div class="flex justify-between items-start mb-1">
+                        <div>
+                            <p class="font-medium text-slate-900 text-sm">${reply.name}</p>
+                            <p class="text-xs text-slate-500">${new Date(reply.timestamp).toLocaleDateString()} at ${new Date(reply.timestamp).toLocaleTimeString()}</p>
+                        </div>
+                    </div>
+                    <div class="text-sm text-slate-700">
+                        <p>${reply.text}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Initialize feedback display on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            displayRecentFeedbacks();
+        });
+    </script>
+</body>
+
+</html>
